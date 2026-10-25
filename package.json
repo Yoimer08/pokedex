@@ -8,10 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test --code-coverage --browsers=Chrome",
     "test:cov": "ng test --code-coverage --no-watch --no-progress --browsers=ChromeHeadlessCI",
-    "lint": "ng lint",
-    "predeploy": "ng build --configuration production --base-href=/pokedex-angular/",
-    "deploy": "gh-pages -d dist/pokedex-angular",
-    "prepare": "husky install"
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +21,7 @@
     "@angular/platform-browser-dynamic": "^14.1.1",
     "@angular/router": "^14.1.1",
     "@apollo/client": "^3.0.0",
+    "@fontsource/roboto": "^5.3.0",
     "@fortawesome/angular-fontawesome": "^0.11.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
